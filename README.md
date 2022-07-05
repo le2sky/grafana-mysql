@@ -54,3 +54,20 @@ Grafana는 Prometheus, InfluxDB, ElasticSearch, 기존 관계형 데이터베이
 - MySQL 컨테이너를 docker-compose에 db 서비스로 추가
 - grafana 서비스가 db 서비스를 database로 연결하도록 구성
 - MySQL의 로컬 데이터 저장 경로 확인하여 도커 볼륨 마운트
+
+## Guide
+
+- [Grafana 도커 가이드](https://grafana.com/docs/grafana/latest/installation/docker)
+- [MySql 도커 가이드](https://hub.docker.com/_/mysql)
+
+## start
+
+```sh
+docker-compose up -d
+```
+
+## down
+
+```sh
+docker-compose down -v
+```
